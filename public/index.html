@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="icon-container">
+                <img src="weather.avif" id="icon" alt="Weather Icon" style="width: 100px; height: auto;">
+            </div>
+            
+            
+        </div>
+        <div class="content">
+            <div class="general-information">
+                <div class="location">Displaying Weather Data</div>
+            </div>
+            <div class="detail-section">
+                <!-- Current Weather -->
+                <div class="detail">
+                    <div class="title">Current Wind</div>
+                    <div class="value" id="wind">TBD</div>
+                </div>
+                <div class="detail">
+                    <div class="title">Current Temperature</div>
+                    <div class="value" id="temperature">TBD</div>
+                </div>
+                <div class="detail">
+                    <div class="title">Current Precipitation</div>
+                    <div class="value" id="precipitation">TBD</div>
+                </div>
+                
+                <h3>Predicted Weather</h3>
+                
+                <div class="detail">
+                    <div class="title">Predicted Wind</div>
+                    <div class="value" id="predicted-wind">TBD</div>
+                </div>
+                <div class="detail">
+                    <div class="title">Predicted Temperature</div>
+                    <div class="value" id="predicted-temperature">TBD</div>
+                </div>
+                <div class="detail">
+                    <div class="title">Predicted Precipitation</div>
+                    <div class="value" id="predicted-precipitation">TBD</div>
+                </div>
+            </div>
+            
+            <div class="city-search-container">
+                <h3>Enter latitude and longitude</h3>
+                <input type="text" id="latitude" placeholder="Enter latitude">
+                <input type="text" id="longitude" placeholder="Enter longitude">
+                <button id="get-weather">Get Weather</button>
+
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
