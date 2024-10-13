@@ -7,7 +7,7 @@ Weather Prediction is a Node.js application that provides weather forecasts base
 ## Features
 
 - **Real-time Weather Data:** Get current weather conditions for any location.
-- **Weather Forecasts:** View forecasts for upcoming days.
+- **Weather Forecasts:** View forecast for upcoming day.
 - **User-friendly Interface:** Simple and intuitive design.
 ## Usage
 -Provide the latitude and longitude of the place you want to know the temperature, wind speed and precipitation of. 
