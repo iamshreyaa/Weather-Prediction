@@ -2,7 +2,7 @@
 
 ## Overview
 
-Weather Prediction is a Node.js application that provides weather forecasts based on user input. The application fetches real-time weather information from APIs and presents it in an easy-to-use interface.
+Weather Prediction is a Node.js application that provides weather forecasts based on user input. The application fetches real-time weather information from APIs and presents it in an easy-to-use interface. It predicts the weather condition of next day as well using random forest - a machine learning algorithm. Model is trained in python and then flask is used to utilize that model and integrate the real-time data with predicted model and make predictions on the basis of that. The result is displayed on screen. Flask has been integrated with NodeJs with endpoints.
 
 ## Features
 
